@@ -1,18 +1,3 @@
-/*
-Little game programmed for arduino with adafruit. because this is implemented with sfml, the code needs some
-changes:
-
-- remove sleep() method from this file
-- remove includes
-- add adafruit and arduino includes
-- comment in while true in loop()
-- remove main function
-- replace implementations of key_* functions
-- inject real adafruit gfx implementation and possibly replace drawPixel() calls
-- have fun!
-
-*/
-
 //-----------------------------------------------------------------------------------------------
 // Mock-implementations - Replace with Arduino ones
 //-----------------------------------------------------------------------------------------------
