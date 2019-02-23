@@ -21,8 +21,7 @@ You need to make several modifications to the game to make it work on Arduino:
 * copy all the content from `src/sfml/sokoban/sokoban.cpp` to your sketch
 * from there edit the sketch content:
   * remove `#include "pch.h"`
-  * remove sleep() function
+  * remove delay() function
   * implement methods key_*down() according to your arduino wirings
-  * comment in the code inside the loop() function
   * remove main function
   * implement the display by using an adafruit_GFX implementation of your choice; only drawPixel() is used from the interface.

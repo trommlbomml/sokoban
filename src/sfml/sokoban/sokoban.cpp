@@ -7,7 +7,7 @@
 Adafruit_GFX *tft = nullptr;
 
 //remove this function when running on arduino
-void sleep(int32_t milliseconds)
+void delay(int32_t milliseconds)
 {
 	sf::sleep(sf::milliseconds(milliseconds));
 }
@@ -203,8 +203,6 @@ void setup()
 
 void loop()
 {
-	//while (true)
-	//{
 	switch (game_state)
 	{
 	case STATE_GAME:
@@ -218,8 +216,7 @@ void loop()
 		break;
 	}
 
-	sleep(FRAME_TIME_MILLISECONDS);
-	//}
+	delay(FRAME_TIME_MILLISECONDS);
 }
 
 
